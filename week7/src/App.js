@@ -17,7 +17,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <p>Count: {this.state.counter}</p>
-          <button  onClick={() => {this.setState({counter: this.state.counter +1})}}>Increase!</button>
+          <button onClick={() => {this.setState({counter: this.state.counter +1})}}>Increase!</button>
         </header>
       </div>
     );
